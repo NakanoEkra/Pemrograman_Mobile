@@ -1,0 +1,44 @@
+name: latihan
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+
+flutter:
+  assets:
+    - assets/images/cpu.png
+    - assets/images/motherboard.png
+    - assets/images/vga.png
+    - assets/images/ssd.png
+    - assets/images/i914900k.jpg
+    - assets/images/ryzen9.jpg
+    - assets/images/mobonzxt.jpg
+    - assets/images/4090msi.jpg
+    - assets/images/3090rog.jpg
+    - assets/images/7900xtxasrock.jpg
+    - assets/images/990pro.jpg
+
+  uses-material-design: true
